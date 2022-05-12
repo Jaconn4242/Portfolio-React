@@ -46,6 +46,12 @@
 }
 
 @media screen and (max-width: 940px) {
+    .testimonials-heading{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center; 
+    }
+
     .testimonials .container {
         width: 100%;
     }
