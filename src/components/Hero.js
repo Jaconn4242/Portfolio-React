@@ -9,7 +9,7 @@ const Hero = () => {
             <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             <div className='content'>
                 <p>The name's Conn, Jeff Conn</p>
-                <p>I'm a full stack web developer</p>
+                <p>I'm an inquisitive full stack web developer</p>
                 <button href='/' className='button'>View my work</button>
             </div>
         </div>

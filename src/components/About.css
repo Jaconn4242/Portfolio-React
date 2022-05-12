@@ -4,9 +4,13 @@
     padding: 8rem 1rem 0 1rem;
     width: 100%;
 }
-
+.self-image{
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
 .about .container {
-    width: 1240px;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -24,14 +28,15 @@
     padding: 3rem;
 }
 
-.about .col-2 p:first-of-type {
+.description {
     margin: 2rem 0;
 }
 
-.about .col-2 p:nth-child(4) {
+.bold-description {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
+    text-align: center;
 }
 
 .about button {
@@ -47,9 +52,9 @@
         width: 100%;
     }
 
-    .about .container img {
-        padding: 0rem;
-        width: 90vw;
+    .self-image {
+        width: 90%;
+        margin: auto;
     }
 
     .about .container .col-2 {

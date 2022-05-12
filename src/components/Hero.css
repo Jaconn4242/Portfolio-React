@@ -53,6 +53,11 @@
 }
 
 @media screen and (max-width:940px) {
+
+    .hero .content {
+        width: 100%;
+        margin: auto;
+    }
     .hero .content p:nth-child(3) {
         font-size: 2.6rem;
     }
