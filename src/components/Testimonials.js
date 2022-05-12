@@ -1,7 +1,7 @@
 import React from 'react'
 import user1 from './images/user1.jpeg'
-import user2 from './images/user2.jpeg'
-import user3 from './images/user3.jpeg'
+import user2 from './images/colton.jpg'
+import user3 from './images/Jordan.jpg'
 import './Testimonials.css'
 
 const Testimonials = () => {
@@ -13,21 +13,21 @@ const Testimonials = () => {
                 <div className='content'>
                     <div className='card'>
                         <img src={user1} alt='user1'/>
-                        <p>It is not every day that you come across a passionate and trustworthy financial advisor. John Doe is true professional who does his work really well. Thanks John!</p>
-                        <p><span>Johnson.M.J.</span></p>
-                        <p>Director of "Financial Times"</p>
+                        <p>"It's is not every day that you come accross a passionate and trustworthy friend who also knows his way around building awesome websites!" #RockSpringsSoftballTeam</p>
+                        <p><span>Michael.M.J.</span></p>
+                        <p>Coach at "Rocksprings Baptist Church"</p>
                     </div>
                     <div className='card'>
                         <img src={user2} alt='user1'/>
-                        <p>In just 2 very short meetings with John he managed to find the solution personally catered to my situation and expectations. Punctual, well informed and very reliable.</p>
-                        <p><span>Carol Harper</span></p>
-                        <p>Director at Risktec Solutions Ltd</p>
+                        <p>"Jeff Is the easiest to work with. He always steps up and never has an issue explaining anything or asking a question. I would choose him to be in a group every time. It would be a disservice if I didn't."</p>
+                        <p><span>Colton Walker</span></p>
+                        <p>Full Stack Web Developer - VSchool</p>
                     </div>
                     <div className='card'>
                         <img src={user3} alt='user1'/>
-                        <p>A very professional financial advisor, who is true to his word. John has demonstrated a high amount of integrity in the time I have known him, and he is fast to respond to my concerns.</p>
-                        <p><span>Snow.J.R.</span></p>
-                        <p>Managing Director of BPW Global</p>
+                        <p>"A very professional Web Developer, who is true to his word. Jeff has demonstrated a high amount of integrity in the time I have known him, and he was fast in making our company's employee award template!"</p>
+                        <p><span>Jordan Sewell</span></p>
+                        <p>Loan Consultant - Capcenter</p>
                     </div>
                 </div>
             </div>

@@ -28,6 +28,8 @@
 }
 
 .testimonials img {
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     margin-top: -2rem;
 }
@@ -63,6 +65,12 @@
     .testimonials .card {
         max-width: 100%;
         margin: 1rem;
+    }
+    .testimonials img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        margin-top: -2rem;
     }
 }
 
