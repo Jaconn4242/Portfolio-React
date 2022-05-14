@@ -7,12 +7,12 @@ const Hero = () => {
     return (
         <div className='hero'>
             {/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}
-            <video  className='herobg-video' src={Video} autoPlay loop muted></video>
+            <video  className='herobg-video' autoPlay loop muted src={Video}></video>
             {/* super cool pexels.com/video */}
             <div className='hero-content'>
                 <p className='hero-title'>The name's Conn, Jeff Conn</p>
-                <p className='hero-description'>I'm an inquisitive full stack web developer</p>
-                <button href='/' className='button'>View my work</button>
+                <em className='hero-description'>I'm an inquisitive full stack web developer</em>
+                <button href='/' className='button hero-button'>View my work</button>
             </div>
         </div>
     )

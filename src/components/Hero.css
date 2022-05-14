@@ -51,6 +51,12 @@
     background-color: var(--secondary-dark);
     border: 1px solid var(--secondary-dark);
 } */
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
 .herobg-video{
     width: 100%;
     height: 100%;
@@ -58,15 +64,27 @@
     object-fit: cover;
     background: #232a34;
 }
+.hero-content {
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.hero-title{
+    font-size: 50px;
+}
+.hero-description{
+    margin-bottom: .5em;
+}
+.hero-button{
+    width: fit-content;
+}
 
 @media screen and (max-width:940px) {
-    .hero{
-        height: 100vh;
-        width: 100%;
-    }
-    .hero-content {
-        border: 2px solid yellow;
-    }
     .herobg-video{
         width: 100%;
         height: 100%;
@@ -74,18 +92,68 @@
         object-fit: cover;
         background: #232a34;
     }
-    /* .hero .content {
+    .hero{
+        height: 100vh;
         width: 100%;
-        margin: auto;
+        position: relative;
+    } 
+    .hero-content {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 90%;
+        color: white;
+        display: flex;
+        flex-direction: column;
     }
-    .hero .content p:nth-child(3) {
-        font-size: 2.6rem;
+    .hero-title{
+        font-size: 27px;
     }
+    .hero-description{
+        margin-bottom: .5em;
+        font-size: 13px;
+    }
+    .hero-button{
+        width: fit-content;
+        font-size: 10px;
+        padding: 8.5px 14px;
+    }
+}
 
-    .hero .content p:nth-child(4) {
-        font-size: 1.6rem;
+@media screen and (max-width:400px ) {
+    .herobg-video{
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background: #232a34;
     }
-} */
+    .hero{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    } 
+    .hero-content {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 90%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-title{
+        font-size: 25px;
+    }
+    .hero-description{
+        margin-bottom: .5em;
+        font-size: 13px;
+    }
+    .hero-button{
+        width: fit-content;
+        font-size: 10px;
+        padding: 8.5px 14px;
+    }
 }
 
 
