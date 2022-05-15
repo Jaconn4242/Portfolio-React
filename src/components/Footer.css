@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 390px){
     .footer li{
-        font-size: medium;
+        font-size: small;
     }
     .bottom{
         font-size: 17px;

@@ -1,7 +1,0 @@
-const workData = [
-    {
-        
-        gitHubUrl: "",
-        siteUrl: ""
-    }
-]
