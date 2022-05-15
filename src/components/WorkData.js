@@ -6,21 +6,21 @@ const workData = [
         title: "Softball Website",
         gitHubUrl: "",
         siteUrl: "",
-        imgUrl: "./images/SoftballWebsite.jpg"
+        imgUrl: './images/Jordan.jpg'
     },
     {
         id: 2,
         title: "DJ React",
         gitHubUrl: "",
         siteUrl: "",
-        imgUrl: "./images/jeff.jpg"
+        imgUrl: './images/Jordan.jpg'
     },
     {
         id: 3,
         title: "Bounty Hunter",
         gitHubUrl: "",
         siteUrl: "",
-        imgUrl: "./images/jeff.jpg"
+        imgUrl: './images/Jordan.jpg'
     }
 ]
 

@@ -1,5 +1,7 @@
 import React from 'react'
-import WorkData from "./WorkData.js"
+import Softball from './images/SoftballWebsite.jpg'
+import Dj from "./images/DjReact.jpg"
+import MemeGenerator from "./images/MemeGenerator.jpg"
 import './MyWork.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
@@ -13,20 +15,30 @@ const myWork = () => {
             <span className='line'></span>
             <div className='carousel-wrapper'>
             <Carousel infiniteLoop autoPlay>
-               
-                {WorkData.map(item => {
-                return (
-                    <div key={item.id} className="project-container">
-                            <img src={item.imgUrl} alt="" />
-                            <div className='col2'>
-                                <h3>{item.title}</h3>
-                                <a href={item.gitHubUrl} className='button pbtn'>View Code</a>
-                                <a href={item.siteUrl} className='button pbtn'>View Site</a>
-                            </div>
-                        </div>
-                    )
-                })} 
-                
+                <div className="project-container">
+                    <h3 className='project-heading'>Softball Website</h3>
+                    <img src={Softball} alt="" className='project-image' />
+                    <div className='col2'>
+                        <button href='www.github.com' className='view-code-btn'>View Code</button>
+                        <button href='www.rockspringsangels.com' className='view-site-btn'>View Site</button>
+                    </div>
+                </div>
+                <div className="project-container">
+                    <h3 className='project-heading'>DJ React</h3>
+                    <img src={Dj} alt="" className='project-image' />
+                    <div className='col2'>
+                        <button href='www.github.com' className='view-code-btn'>View Code</button>
+                        <button href='www.google.com' className='view-site-btn'>View Site</button>
+                    </div>
+                </div>
+                <div className="project-container">
+                    <h3 className='project-heading'>Meme Generator</h3>
+                    <img src={MemeGenerator} alt="" className='project-image' />
+                    <div className='col2'>
+                        <button href='www.github.com' className='view-code-btn'>View Code</button>
+                        <button href='www.google.com' className='view-site-btn'>View Site</button>
+                    </div>
+                </div>
             </Carousel>
             </div>
         </div>
