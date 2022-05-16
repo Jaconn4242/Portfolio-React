@@ -10,10 +10,7 @@
 .carousel-wrapper{
     width: 80%;
     margin: auto;
-    border: 2px solid black;
     padding: 1em;
-    background: linear-gradient(90deg, white, grey)
-    /* transition: transform 500ms linear 500ms */
 }
 .carousel{
     display: flex;
@@ -56,7 +53,7 @@
     .carousel-wrapper{
         /* width: 100%; */
         margin: auto;
-        background: linear-gradient(135deg, white, grey)
+
         /* transition: transform 500ms linear 500ms */
     }
     .carousel .control-next.control-arrow {
@@ -76,7 +73,7 @@
         justify-content: center;
     }
     .carousel .slide{
-        height: 36vh
+        height: 36vh;
     }
     .carousel .slide img{
         box-shadow: 0 20px 10px -10px;

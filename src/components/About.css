@@ -42,10 +42,30 @@
 .about button {
     margin-top: 1rem;
 }
+.stack-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px 2px;
+    width: 100%;
+    padding:.5em 0 .5em 0;
+    margin: auto;
+    grid-column: 2 / 3;
+    margin-top: 1em;
+}
+.about-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
 
 @media screen and (max-width:940px) {
     .about .container {
         grid-template-columns: 1fr;
+        height: fit-content;
     }
 
     .about .container {
@@ -63,6 +83,23 @@
 
     .about button {
         margin-bottom: 1rem;
+    }
+    .stack-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 1em;
+        box-shadow: 0 0 10px 2px;
+        width: 100%;
+        padding:.5em 0 .5em 0;
+        margin: auto;
+    }
+    .about-btn-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
     }
 }
 

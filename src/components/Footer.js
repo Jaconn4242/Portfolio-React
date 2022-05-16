@@ -1,4 +1,5 @@
 import React from 'react'
+import ArmLogo from './images/icons8-muscle-64.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -21,7 +22,7 @@ const Footer = () => {
                 </ul>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2020 ConnsCoding, LLC. All rights reserved</p>
+                    <p>2022 ConnsCoding <img src={ArmLogo} alt="arm" /></p>
                 </div>
             </div>
         </div>

@@ -30,8 +30,12 @@
 }
 
 .bottom {
-    text-align: center;
     padding-top: 3rem;
+    text-align: center;
+}
+.bottom img{
+    background-color: white;
+    width: 30px
 }
 
 .line {
