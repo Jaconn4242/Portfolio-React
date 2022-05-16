@@ -14,7 +14,11 @@ const myWork = () => {
             <h2 className='my-work-heading'>My Work</h2>
             <span className='line'></span>
             <div className='carousel-wrapper'>
-            <Carousel infiniteLoop autoPlay>
+            <Carousel infiniteLoop 
+                      autoPlay 
+                      onClickItem={()=> {
+                          
+                      }}>
                 <div className="project-container">
                     <h3 className='project-heading'>Softball Website</h3>
                     <img src={Softball} alt="" className='project-image' />

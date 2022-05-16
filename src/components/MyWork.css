@@ -59,18 +59,24 @@
         background: linear-gradient(135deg, white, grey)
         /* transition: transform 500ms linear 500ms */
     }
-    .carousel-wrapper:hover{
-        width: 80%;
-        margin: auto;
-        background-color: grey;
-        /* transform: rotate(360deg); */
+    .carousel .control-next.control-arrow {
+       /* just using this for reference */
+       color: red
     }
+    .carousel .control-prev.control-arrow{
+       /* just using this for reference */
+       color: red
+    }
+    .carousel .control-dots{
+        /* just using this for reference */
+        bottom: 0
+      }
     .carousel{
         display: flex;
         justify-content: center;
     }
     .carousel .slide{
-        height: fit-content;
+        height: 36vh
     }
     .carousel .slide img{
         box-shadow: 0 20px 10px -10px;
