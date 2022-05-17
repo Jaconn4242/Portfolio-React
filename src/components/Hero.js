@@ -4,7 +4,7 @@ import './Hero.css'
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id="hero">
             <video  className='herobg-video' autoPlay loop muted src={Video}></video>
             <div className='hero-content'>
                 <p className='hero-title'>The name's Conn, Jeff Conn</p>

@@ -31,7 +31,7 @@ const About = () => {
                     <div className='about-btn-wrapper'>
                         <a href={Resume} className="button" download>Resume</a>
                         {!showStack ? <button onClick={handleClick} className='about-btn'>View current stack</button> : 
-                        <button onClick={handleClick} className='collapse-btn'>Collapse Stack</button>}
+                        <button onClick={handleClick} className='about-btn'>Collapse Stack</button>}
                     </div>
                 </div>
             </div>

@@ -1,8 +1,9 @@
 .about {
     background-color: #f8f8f8;
     margin: auto;
-    padding: 8rem 1rem 0 1rem;
+    padding: 0rem 1rem 0 1rem;
     width: 100%;
+    
 }
 .self-image{
     width: 50%;
@@ -104,10 +105,6 @@
     .about .container .col-2 {
         padding: 0;
     }
-
-    .about button {
-        
-    }
     .about a{
         font-size: 1.2rem;
         color: #fff;
@@ -123,6 +120,10 @@
         border: 1px solid var(--primary-color);
         border-radius: 4px;
         cursor: pointer; 
+    }
+    .collapse-btn:hover{
+        background: var(--primary-dark);
+        border: 1px solid var(--primary-dark);
     }
     .stack-display{
         display: flex;

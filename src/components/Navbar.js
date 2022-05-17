@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from "react-scroll"
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 import './Navbar.css'
@@ -25,16 +26,16 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Home</a>
+                        <Link to="hero" spy={true} smooth={true}  duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>About</a>
+                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Testimonials</a>
+                        <Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Testimonials</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#my-work' onClick={closeMenu}>My Work</a>
+                        <Link to="my-work" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>My Work</Link>
                     </li>
                 </ul>
             </nav>
