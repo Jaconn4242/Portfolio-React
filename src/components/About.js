@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import jsPDF from 'jspdf'
-import Resume from './documents/ResumeSS.jpg'
+import Resume from './documents/Resume.pdf'
 import jeff from './images/jeff.jpg'
 import CSSLogo from './images/icons8-css3.svg'
 import HTML5Logo from './images/icons8-html-5.svg'
@@ -18,13 +17,6 @@ const About = () => {
         setShowStack(!showStack)
     }
 
-    const pdfGenerator = () => {
-        // const doc = new jsPDF('p', 'pt');
-        const doc = new jsPDF('landscape', 'px', 'a4', 'false');
-        doc.addImage(Resume, 10, 20, 400, 400)
-        doc.save('generated.pdf')
-    }
-
     return (
         <div className='about' id='about'>
             <div className='container'>
@@ -37,9 +29,9 @@ const About = () => {
                        In my spare time I enjoy researching and testing new development languages, hiking the Smokey Mountains and entering into local ping-pong competitions.</p>
                     <p className='bold-description'>I am a full stack web developer willing to expand my horizons to projects looking for software support and consultancy.</p>
                     <div className='about-btn-wrapper'>
-                    <button onClick={pdfGenerator} className='button'>View Resume</button>
-                        {!showStack ? <button onClick={handleClick} className='button'>View current stack</button> : 
-                        <button onClick={handleClick} className='button'>Collapse Stack</button>}
+                        <a href={Resume} className="button" download>Resume</a>
+                        {!showStack ? <button onClick={handleClick} className='about-btn'>View current stack</button> : 
+                        <button onClick={handleClick} className='collapse-btn'>Collapse Stack</button>}
                     </div>
                 </div>
             </div>
