@@ -4,7 +4,7 @@ import Dj from "./images/DjReact.jpg"
 import MemeGenerator from "./images/MemeGenerator.jpg"
 import './MyWork.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { Carousel } from 'react-responsive-carousel'
+import {Carousel} from 'react-responsive-carousel'
 
 const myWork = () => {
     
@@ -16,31 +16,41 @@ const myWork = () => {
             <div className='carousel-wrapper'>
             <Carousel infiniteLoop 
                       autoPlay 
-                      onClickItem={()=> {
-                          
-                      }}>
+                    >
                 <div className="project-container">
                     <h3 className='project-heading'>Softball Website</h3>
                     <img src={Softball} alt="" className='project-image' />
                     <div className='col2'>
-                        <button href='www.github.com' className='view-code-btn'>View Code</button>
-                        <button href='www.rockspringsangels.com' className='view-site-btn'>View Site</button>
+                        <button className='view-code-btn' >
+                            <a target="_blank" href="http://www.github.com" rel="noopener noreferrer">View Code</a>
+                        </button>
+                        <button className='view-site-btn'>
+                        <a target="_blank" href="https://github.com/Jaconn4242/Rock-Springs-Angels" rel="noopener noreferrer">View Site</a>
+                        </button>
                     </div>
                 </div>
                 <div className="project-container">
                     <h3 className='project-heading'>DJ React</h3>
                     <img src={Dj} alt="" className='project-image' />
                     <div className='col2'>
-                        <button href='www.github.com' className='view-code-btn'>View Code</button>
-                        <button href='www.google.com' className='view-site-btn'>View Site</button>
+                        <button className='view-code-btn' onClick={()=> window.open("www.google.com")}>
+                            <a target="www.google.com" href="www.github.com">View Code</a>
+                        </button>
+                        <button className='view-site-btn'>
+                            <a href="www.github.com">View Site</a>
+                        </button>
                     </div>
                 </div>
                 <div className="project-container">
                     <h3 className='project-heading'>Meme Generator</h3>
                     <img src={MemeGenerator} alt="" className='project-image' />
                     <div className='col2'>
-                        <button href='www.github.com' className='view-code-btn'>View Code</button>
-                        <button href='www.google.com' className='view-site-btn'>View Site</button>
+                    <button className='view-code-btn'>
+                            <a href="https://github.com/Jaconn4242/assignments/tree/main/Level-3/meme-generator">View Code</a>
+                        </button>
+                        <button className='view-site-btn' disabled={true}>
+                            <a href="www.github.com">Not available yet</a>
+                        </button>
                     </div>
                 </div>
             </Carousel>

@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
-import Resume from './documents/Resume.pdf'
+import Resume from './documents/JeffConn-Resume.pdf'
 import jeff from './images/jeff.jpg'
 import CSSLogo from './images/icons8-css3.svg'
 import HTML5Logo from './images/icons8-html-5.svg'
 import JSLogo from './images/icons8-javascript.svg'
 import ReactLogo from './images/icons8-react-native.svg'
 import NodeLogo from './images/icons8-node-js.svg'
-import GitHubLogo from './images/icons8-github.svg'
 import MongoDBLogo from './images/icons8-mongodb.svg'
 import './About.css'
 
@@ -29,9 +28,9 @@ const About = () => {
                        In my spare time I enjoy researching and testing new development languages, hiking the Smokey Mountains and entering into local ping-pong competitions.</p>
                     <p className='bold-description'>I am a full stack web developer willing to expand my horizons to projects looking for software support and consultancy.</p>
                     <div className='about-btn-wrapper'>
-                        <a href={Resume} className="button" download>Resume</a>
+                        <a href={Resume} className="resume-button button" download>Resume</a>
                         {!showStack ? <button onClick={handleClick} className='about-btn'>View current stack</button> : 
-                        <button onClick={handleClick} className='about-btn'>Collapse Stack</button>}
+                        <button onClick={handleClick} className='collapse-btn'>Collapse Stack</button>}
                     </div>
                 </div>
             </div>
@@ -42,8 +41,6 @@ const About = () => {
                         <img src={ReactLogo} alt="css3 icon" />
                         <img src={NodeLogo} alt="css3 icon" />
                         <img src={MongoDBLogo} alt="css3 icon" />
-                        <img src={GitHubLogo} alt="css3 icon" />
-                        
                     </div>}
         </div>
     )
