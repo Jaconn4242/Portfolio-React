@@ -22,10 +22,10 @@ const myWork = () => {
                     <img src={Softball} alt="" className='project-image' />
                     <div className='col2'>
                         <button className='view-code-btn' >
-                            <a target="_blank" href="http://www.github.com" rel="noopener noreferrer">View Code</a>
+                            <a target="_blank" href="https://github.com/Jaconn4242/Rock-Springs-Angels" rel="noopener noreferrer">View Code</a>
                         </button>
                         <button className='view-site-btn'>
-                        <a target="_blank" href="https://github.com/Jaconn4242/Rock-Springs-Angels" rel="noopener noreferrer">View Site</a>
+                        <a target="_blank" href="https://rockspringsangels.com" rel="noopener noreferrer">View Site</a>
                         </button>
                     </div>
                 </div>
@@ -33,11 +33,11 @@ const myWork = () => {
                     <h3 className='project-heading'>DJ React</h3>
                     <img src={Dj} alt="" className='project-image' />
                     <div className='col2'>
-                        <button className='view-code-btn' onClick={()=> window.open("www.google.com")}>
-                            <a target="www.google.com" href="www.github.com">View Code</a>
+                        <button className='view-code-btn'>
+                            <a target="_blank" href="https://github.com/Jaconn4242/assignments/tree/main/Level-3/dj-react" rel="noopener noreferrer">View Code</a>
                         </button>
                         <button className='view-site-btn'>
-                            <a href="www.github.com">View Site</a>
+                            <a href="https://dj-react-jeff.netlify.app/" rel="noopener noreferrer">View Site</a>
                         </button>
                     </div>
                 </div>
@@ -46,10 +46,10 @@ const myWork = () => {
                     <img src={MemeGenerator} alt="" className='project-image' />
                     <div className='col2'>
                     <button className='view-code-btn'>
-                            <a href="https://github.com/Jaconn4242/assignments/tree/main/Level-3/meme-generator">View Code</a>
+                            <a target="_blank" href="https://github.com/Jaconn4242/assignments/tree/main/Level-3/meme-generator" rel="noopener noreferrer">View Code</a>
                         </button>
-                        <button className='view-site-btn' disabled={true}>
-                            <a href="www.github.com">Not available yet</a>
+                        <button className='view-site-btn' >
+                            <a target="_blank" href="https://meme-generator-jeff.netlify.app/" rel="noopener noreferrer">View Site</a>
                         </button>
                     </div>
                 </div>
